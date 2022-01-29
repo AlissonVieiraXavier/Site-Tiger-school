@@ -332,6 +332,18 @@ justify-content:center;
     }
 
 }
+@media screen and (min-width:426px){
+        /*                     FORM                     */
+        .mensform{
+            position:relative;
+            bottom:50px;
+            left:-50px;
+            top:-10px;
+        }
+        .ajuste420pxtextarea{
+            padding-left: 60px;
+        }
+}
 
 /*    //////////////////////////////////////////////////// */
 
