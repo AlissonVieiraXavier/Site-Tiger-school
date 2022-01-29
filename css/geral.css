@@ -92,7 +92,7 @@ body {
     width: 100%;
 
    
-    background:url("/img/backmobile.jpeg") center center / cover no-repeat;
+    background:url("/img/backmobile.webp") center center / cover no-repeat;
 }
 .backmobile h1{
     position:relative;
@@ -222,7 +222,7 @@ color:white;
 
 }
 #endereco h2{
-    color: white;
+    
     opacity: 0.9;
 }
 #endereco i{
@@ -236,7 +236,7 @@ color:white;
     margin: 30px 0px;
 }
 .ajustarback{
-    background-image: url("../img/backendereco.jpeg");
+    background: url("../img/backendereco.webp") center center / cover no-repeat;
     margin-top: 40px;
 }
 
