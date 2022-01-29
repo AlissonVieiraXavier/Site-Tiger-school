@@ -256,9 +256,7 @@ color:white;
    border-radius: 5px; 
 }
 .mensform{
-    position:relative;
-    bottom:3px;
-    left:-9px;
+ 
 }
 
 .formcontact button{
@@ -279,10 +277,7 @@ justify-content:center;
     color:black;
     border-radius: 50px;
 }
-#textAreaMensagem{
-    width:250px;
-    height:200px;
-}
+
 
 /*                   FOOTER-MOBILE              */
 .rodape{
@@ -332,18 +327,7 @@ justify-content:center;
     }
 
 }
-@media screen and (min-width:426px){
-        /*                     FORM                     */
-        .mensform{
-            position:relative;
-            bottom:50px;
-            left:-50px;
-            top:-10px;
-        }
-        .ajuste420pxtextarea{
-            padding-left: 60px;
-        }
-}
+
 
 /*    //////////////////////////////////////////////////// */
 
