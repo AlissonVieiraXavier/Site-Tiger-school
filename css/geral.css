@@ -425,16 +425,18 @@ display: none;
 .content-video{
     position:absolute;
     left: 0%;
-    bottom: 56%;
+    bottom: 50%;
     text-align: center;
     width: 100%;
+    border-radius: 5px;
+   
     
     
 }
 
 .container__video{
     width: 100%;
-    max-height:600px;
+    height:450px;
     border-radius: 5px;
     margin-top: 10px;
 
@@ -447,7 +449,7 @@ display: none;
 @media screen and (min-width:900px) {
 
  .content-video{
-        bottom: 52%;
+        bottom: 53%;
         left:10px;}
 
 
@@ -468,7 +470,7 @@ display: none;
         
     }
     .content-video{
-    bottom: 38%;
+    bottom: 48%;
     left:10px;}
     
 
