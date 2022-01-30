@@ -90,24 +90,29 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-   
     height: 60vh;
     width: 100%;
-
-   
     background:url("/img/backmobile.webp") center center / cover no-repeat;
 }
-.backmobile h1{
-    position:relative;
-    bottom:20px;
-    opacity: 0.8;
-    color:white;
-    font-size:1.0rem;
-    top: 8em;
-    text-align: left;
-    left:-30px;
+.content-backmobile{
+    text-align: center;
+    color: white;
+    
 }
+.content-backmobile button{
+    color: white;
+    text-shadow: 2px 2px 3px Black;
+    border:2px solid white;
+    padding:13px;
+    border-radius:10px;
+    transition: all 500ms;
+    font-weight: 600;
+}
+.content-backmobile button:hover{
+    transition: all 500ms;
+    background:linear-gradient(#f49f0d,#f49f0daa);
+}
+
 /*         CARDS         */
 .titlecards{
     text-align: center;
