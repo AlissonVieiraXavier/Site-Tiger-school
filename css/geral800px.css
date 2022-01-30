@@ -91,9 +91,9 @@ display: none;
     opacity: 0.8;
 }
 .content-video{
-    height:50%;
+    height:32%;
     width:100%;
-    padding:15px;
+    margin-left:5px;
     position:absolute;
     left: 0;
     right: 0;
@@ -121,13 +121,6 @@ display: none;
 
 /* ////////////////////////////////////////////////////////////////////// */
 
-@media screen and (min-width:900px) {
-
- .content-video{
-      }
-
-
-}
 
 
 /* ////////////////////////////////////////////////////////////////////// */
@@ -143,7 +136,9 @@ display: none;
         right:10px;
         
     }
-    .content-video{}
+    .content-video{
+        height:25%;
+    }
     
 
 }
