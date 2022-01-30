@@ -144,41 +144,43 @@ display: none;
     }
     
 /*                 SOBRE             */ 
-#sobre{
-    display: flex;
-    flex-direction: column;
-} 
-.sobreflexrow{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-around;
-    margin:10px 10%;
-}
-#elementoadpatavel-desktop{
-    width: 50%;
-   
+    #sobre{
+        display: flex;
+        flex-direction: column;
+    } 
+    .sobreflexrow{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        align-self: center;
+        margin:10px 10%;
+        max-width: 1200px;
+    }
+    #elementoadpatavel-desktop{
+        width: 60%;
+    
 
-}
-.sobre-title{
-    text-align: center;
-    font-size:1.5em;
-    font-weight:bold;
-    margin:40px auto;
-} 
-.sobre-text{
-    padding:40px;
-    font-size:18px;
-}
-.element-div{width:auto;
-text-align: center;}
-.element-div-img{
-    height:20em;
-    width:100%;
-    max-width: 270px;
-    align-self: center;
-    border-radius: 40% 2%;
-   
-}
+    }
+    .sobre-title{
+        text-align: center;
+        font-size:1.5em;
+        font-weight:bold;
+        margin:30px auto;
+    } 
+    .sobre-text{
+        padding:40px 80px;
+        font-size:18px;
+    }
+    .element-div{width:40%;
+    text-align: center;}
+    .element-div-img{
+        height:25em;
+        width:100%;
+        max-width: 300px;
+        align-self: center;
+        border-radius: 40% 2%;
+    
+    }
 
 
 
@@ -211,5 +213,27 @@ text-align: center;}
         margin: auto 10%;
     }    
     
+/*                 SOBRE             */ 
+    .sobreflexrow{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin:10px 10%;
+    }
+    .sobre-text{
+        padding: 30px 90px 20px 90px;
+        font-size:18px;
+        position: relative;
+        top:40px;
+        left:10px;
+    }
+
+/*            HORARIOS       */
+.ajustarback{
+    margin:auto 15%;
+    background:linear-gradient(#031504,#03150488);
+    border-radius: 100px 5px 100px 5px;
+    
+}
 
 }
