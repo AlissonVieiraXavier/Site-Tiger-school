@@ -80,6 +80,7 @@ display: none;
     border-radius:10px;
     transition: all 500ms;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 .button-start:hover{
     transition: all 500ms;
