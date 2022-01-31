@@ -222,7 +222,7 @@ display: none;
     .content-video{
         position:absolute;
         top:230px;
-        left:35%
+        left:38%
     }
 
 /*  ////////////// CARDS ///////// */
@@ -247,12 +247,16 @@ display: none;
 
 /*            HORARIOS       */
 .ajustarback{
-    margin:auto 15%;
+    margin:40px 15%;
     background:linear-gradient(#031504,#03150488);
     border-radius: 100px 5px 100px 5px;
     
 }
-
+#horarios table{
+    padding-left: 40px;
+}
+#endereco iframe{
+  width: 550px;}
 }
 
 
@@ -260,14 +264,21 @@ display: none;
     .content-video{
         position:absolute;
         top:230px;
-        left:35%
+        left:38%
     }
 }
 @media screen and (min-width:1400px){
     .content-video{
         position:absolute;
         top:230px;
-        left:35%
+        left:38%
+    }
+}
+@media screen and (min-width:1600px){
+    .content-video{
+        position:absolute;
+        top:230px;
+        left:42%
     }
 }
 
