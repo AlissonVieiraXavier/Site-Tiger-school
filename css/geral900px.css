@@ -58,7 +58,8 @@
     
 }
 #horarios table{
-    padding-left: 40px;
+    position: relative;
+    left: 17px;
 }
 #endereco iframe{
   width: 550px;}
