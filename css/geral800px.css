@@ -91,15 +91,7 @@ display: none;
     opacity: 0.8;
 }
 .content-video{
-   /* height:32%;
-    width:100%;
-    margin-left:5px;
-    position:absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    margin: auto;*/
+
     position:absolute;
     top:230px;
     left:33%
@@ -187,7 +179,17 @@ display: none;
         border-radius: 40% 2%;
     
     }
-
+    #horarios table{
+        position: relative;
+        left: 16px;
+        
+    }
+    .ajustarback{
+        margin:40px 8%;
+        background:linear-gradient(#031504,#03150488);
+        border-radius: 100px 5px 100px 5px;
+        
+    }
 
 
 

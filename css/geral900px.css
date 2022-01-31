@@ -59,11 +59,26 @@
 }
 #horarios table{
     position: relative;
-    left: 17px;
+    left: 16px;
+    
 }
 #endereco iframe{
   width: 550px;}
 }
+
+
+/*             FORM                 */
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width:1200px){
