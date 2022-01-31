@@ -141,23 +141,25 @@
     </div>
     <section id="contato">
         <h2 class="sobre-title">Fale conosco</h2>
-        <form class="formcontact" action="https://api.staticforms.xyz/submit" method="POST">
+        <div class="ajustarformdesktop">
+            <form class="formcontact" action="https://api.staticforms.xyz/submit" method="POST">
 
-            <input type="hidden" name="accessKey" value="9d4e7773-cb2d-438b-9c63-43688070ab36">
+                <input type="hidden" name="accessKey" value="9d4e7773-cb2d-438b-9c63-43688070ab36">
 
-            <div>
-                <label for="inputName">Nome: </label>
-                <input type="text" id="inputName" name="name" required maxlength="50">
-            </div>
-            <div>
-                <label for="inputEmail">Email: </label>
-                <input type="email" id="inputEmail" name="email" required maxlength="50">
-            </div>
-            <div>
-                <label for="textAreaMensagem" class="mensform">Mensagem:</label>
-                <textarea name="message" id="textAreaMensagem" required maxlength="10000"></textarea>
-            </div>
-            <button>Enviar Mensagem</button>
+                <div>
+                    <label for="inputName">Nome: </label>
+                    <input type="text" id="inputName" name="name" required maxlength="50">
+                </div>
+                <div>
+                    <label for="inputEmail">Email: </label>
+                    <input type="email" id="inputEmail" name="email" required maxlength="50">
+                </div>
+                <div>
+                    <label for="textAreaMensagem" class="mensform">Mensagem:</label><br>
+                    <textarea name="message" id="textAreaMensagem" required maxlength="10000"></textarea>
+                </div>
+                <button>Enviar Mensagem</button>
+            </form>
             <div class="iconsc">
                 <!--<h2 class="sobre-title">Mais formas de contato</h2>-->
 
@@ -167,10 +169,11 @@
 
 
             </div>
+        </div>
 
 
 
-        </form>
+
     </section>
 
     <footer class="rodape">

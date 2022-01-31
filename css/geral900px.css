@@ -68,10 +68,28 @@
 
 
 /*             FORM                 */
-
-
-
-
+/*
+.ajustarformdesktop{
+    display: flex;
+    justify-content:space-around;
+    margin:5% 30%;
+}
+.ajustarformdesktop button{
+    position: relative;
+    left: 70px;
+}
+.iconsc{
+    flex-direction: column;
+    position:relative;
+    bottom:35px
+}
+.iconsc i{
+    padding: 0.8em;
+    font-size:2.6rem;
+    color:black;
+    border-radius: 50px;
+}
+*/
 
 
 

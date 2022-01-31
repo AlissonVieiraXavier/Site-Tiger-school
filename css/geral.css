@@ -268,9 +268,11 @@ color:white;
 .formcontact input,textarea{
    border-radius: 5px; 
 }
-.mensform{
- 
+textarea{
+ height: 100px;
+ width: 340px;
 }
+
 
 .formcontact button{
     border: 1px solid black;
